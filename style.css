@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("window111.jpg");
+    object-fit: cover;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    
+}
+.startmenu{
+    width: 100%;
+    position: absolute;
+    /* bottom:65px; */
+    bottom: -485px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.startmenu img{
+    object-fit: cover;
+    border-radius: 8px;
+    height: 800px;
+    width:720px;
+}
+.taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121946;
+    z-index: 110;
+}
+.right{
+    align-self: flex-end;
+    position: absolute;
+    right: 0;
+}
+/* video{
+    height:100%;
+    width: 100%;
+} */
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+.icons div{
+    color: aliceblue;
+    padding-left: 25px;
+}
